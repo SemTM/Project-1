@@ -1,0 +1,81 @@
+body {
+    font-family: 'malgun gothic';
+    color: #30475E;
+}
+
+p {
+    margin-top: 0px;
+}
+
+.banner {
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    margin: 0px;
+}
+
+.afbeelding1 {
+    height: 150px;
+    float: left;
+}
+
+.afbeelding2 {
+    height: 150px;
+}
+
+.afbeelding3 {
+    height: 150px;
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #CBAF87;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+li {
+    float: left; 
+}
+
+li a {
+    display: block;
+    color: #30475E;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+.actief {
+    background-color: #7E8A97;
+    color: #30475E;
+}
+
+li a:hover:not(.actief) {
+    background-color: #7E8A97;
+    color: #30475E;
+}
+
+.container {
+    background-color: #E7DEC8;
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container a {
+    color: #30475E;
+    text-decoration: underline;
+}
+.afbeelding4 {
+    margin: 25px;
+    width: 200px;
+}

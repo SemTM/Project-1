@@ -1,0 +1,128 @@
+body {
+    font-family: 'malgun gothic';
+    color: #30475E;
+}
+
+p {
+    margin-top: 0px;
+}
+
+.banner {
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    margin: 0px;
+}
+
+.afbeelding1 {
+    height: 150px;
+    float: left;
+}
+
+.afbeelding2 {
+    height: 150px;
+}
+
+.afbeelding3 {
+    height: 150px;
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #CBAF87;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+li {
+    float: left; 
+}
+
+li a {
+    display: block;
+    color: #30475E;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+.actief {
+    background-color: #7E8A97;
+    color: #30475E;
+}
+
+li a:hover:not(.actief) {
+    background-color: #7E8A97;
+    color: #30475E;
+}
+
+.container {
+    background-color: #E7DEC8;
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+h1 {
+    margin: 0px;
+    padding: 25px 10px 50px 10px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.afbeelding4 {
+    height: 200px;
+    float: left;
+    opacity: 0.5;
+}
+
+.afbeelding4:hover {
+    opacity: 1;
+}
+
+.afbeelding5 {
+    height: 250px;
+    opacity: 0.5;
+}
+
+.afbeelding5:hover {
+    opacity: 1;
+}
+
+.afbeelding6 {
+    height: 250px;
+    float: right;
+    opacity: 0.5;
+}
+
+.afbeelding6:hover {
+    opacity: 1;
+}
+
+.afbeelding7 {
+    width: 200px;
+    margin: 25px;
+}
+
+.afbeelding8 {
+    margin: 25px;
+    width: 400px;
+}
+
+.afbeelding9 {
+    width: 200px;
+    margin: 25px;
+}
+
+.container a {
+    color: #30475E;
+    text-decoration: underline;
+}
