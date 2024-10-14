@@ -1,6 +1,7 @@
 body {
     font-family: 'malgun gothic';
     color: #30475E;
+    margin: 0px;
 }
 
 p {
@@ -82,6 +83,7 @@ h1 {
     height: 150px;
     float: left;
     opacity: 0.5;
+    margin-left: 10px;
 }
 
 .afbeelding4:hover {
@@ -101,6 +103,7 @@ h1 {
     height: 150px;
     float: right;
     opacity: 0.5;
+    margin-right: 10px;
 }
 
 .afbeelding6:hover {
